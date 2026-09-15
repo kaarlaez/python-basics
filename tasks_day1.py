@@ -1,14 +1,14 @@
 # 1task
 name = "Карл"
-age = 20 
-city = "Алматы" 
+age = 20
+city = "Алматы"
 print(f"Меня зовут {name}, мне {age} года, я из {city}")
 
-# 2task 
+# 2task
 name = input("Как тебя зовут? ")
 print(f"Привет, {name}!")
 
-# 3task 
+# 3task
 a = int(input("Введите число a: "))
 b = int(input("Введите число b: "))
 c = a + b
@@ -21,7 +21,7 @@ print(f"Через 10 лет тебе будет {age + 10}")
 # 5task
 price_product = float(input("Введите цену товара: "))
 quantity_product = int(input("Введите количество товара: "))
-print(f"Итого: {price_product * quantity_product:.2f} тенге") 
+print(f"Итого: {price_product * quantity_product:.2f} тенге")
 
 # 6task
 C = float(input("Введите температуру: "))
@@ -33,12 +33,13 @@ a = (input("Введите число a: "))
 print("До преобразования:", type(a))
 a = int(a)
 print("После преобразования:", type(a))
+    
 
 # 8task
 a = 5
 b = 10
 c = a
-a = b 
+a = b
 b = c
 print(f"a = {a}, b = {b}")
 
